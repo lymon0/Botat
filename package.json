@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "build": "echo 'No build needed'",
-    "start": "ts-node index.ts"
+        "start": "npx ts-node index.ts"
+
   },
   "devDependencies": {
     "prettier": "^3.8.3",
