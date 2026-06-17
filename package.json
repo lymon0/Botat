@@ -1,14 +1,21 @@
 {
-  "name": "workspace",
-  "version": "0.0.0",
-  "license": "MIT",
+  "name": "ticket-bot",
+  "version": "1.0.0",
+  "description": "Discord Ticket Bot built with TypeScript",
+  "main": "index.ts",
   "private": true,
   "scripts": {
-    "build": "echo 'No build needed'",
-        "start": "npx ts-node index.ts"
-
+    "build": "echo 'No build needed for Railway'",
+    "start": "npx ts-node -r tsconfig-paths/register index.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
+    "@types/node": "^20.11.0",
     "prettier": "^3.8.3",
     "typescript": "~5.9.3"
   }
